@@ -23,7 +23,7 @@ def generate_calendar(type):
     # Create a calendar
     cal = Calendar()
 
-    cal.add('X-WR-CALNAME', 'கும்பாபிஷேகம் - காடூர் அருள்மிகு படைகாத்த ஐயானார் கோவில்')
+    cal.add('X-WR-CALNAME', 'கும்பாபிஷேகம் - காடூர் அருள்மிகு படைகாத்த ஐயனார் கோவில்')
 
     # for index, row in df.iterrows():
     for event_data in data['events']:
