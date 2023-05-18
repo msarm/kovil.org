@@ -88,37 +88,39 @@ def generate_calendar(type):
             event.add('color', "#000000")
             event.add('transp', "TRANSPARENT")
 
-        if (event_data['reminder-15m'] == 'Y'):
-            event.add('valarm', timedelta(minutes=15))
-            # alarm = Alarm()
-            # alarm.add('action', 'DISPLAY')
-            # alarm.add('description', event_data['summary'])
-            # alarm.add('trigger', timedelta(minutes=-15))
-            # event.add_component(alarm)
+        if (event_data['reminder-15m']):
+            # event.add('valarm', timedelta(minutes=15))
+            alarm = Alarm()
+            alarm.add('action', 'DISPLAY')
+            alarm.add('description', "Reminder: " + event_data['summary'])
+            alarm.add('trigger', timedelta(minutes=-15))
+            event.add_component(alarm)
 
-        if(event_data['reminder-1H'] == 'Y'):
-            # alarm = Alarm()
-            # alarm.add('action', 'DISPLAY')
-            # alarm.add('description', event_data['summary'])
-            # alarm.add('trigger', timedelta(hours=-1))
-            event.add('valarm', timedelta(hours=1))  
-            # event.add_component(alarm)
+        if(event_data['reminder-1H']):
+            alarm = Alarm()
+            alarm.add('action', 'DISPLAY')
+            alarm.add('description', "Reminder: " +  event_data['summary'])
+            alarm.add('trigger', timedelta(hours=-1))
+            event.add_component(alarm)
+            # event.add('valarm', timedelta(hours=1))  
 
-        if(event_data['reminder-2H'] == 'Y'):
-            # alarm = Alarm()
-            # alarm.add('action', 'DISPLAY')
-            # alarm.add('description', event_data['summary'])
-            # alarm.add('trigger', timedelta(hours=-2))
-            event.add('valarm', timedelta(hours=2))
-            # event.add_component(alarm)
 
-        if(event_data['reminder-12H'] == 'Y'):
-            # alarm = Alarm()
-            # alarm.add('action', 'DISPLAY')
-            # alarm.add('description', event_data['summary'])
-            # alarm.add('trigger', timedelta(hours=-12))
-            event.add('valarm', timedelta(hours=12))
-            # event.add_component(alarm)
+        if(event_data['reminder-2H']):
+            alarm = Alarm()
+            alarm.add('action', 'DISPLAY')
+            alarm.add('description', "Reminder: " +  event_data['summary'])
+            alarm.add('trigger', timedelta(hours=-2))
+            event.add_component(alarm)
+            # event.add('valarm', timedelta(hours=2))
+
+        if(event_data['reminder-12H']):
+            alarm = Alarm()
+            alarm.add('action', 'DISPLAY')
+            alarm.add('description', "Reminder: " +  event_data['summary'])
+            alarm.add('trigger', timedelta(hours=-12))
+            event.add_component(alarm)
+            # event.add('valarm', timedelta(hours=12))
+
 
         if (event_data['priority'] == 1 and type == 'main') or type == 'all':
             cal.add_component(event)
