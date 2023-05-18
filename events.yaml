@@ -1,0 +1,27 @@
+events:
+  - uid: 1
+    startdate: 2023-05-16 10:00:00
+    enddate: 2023-05-16 11:00:00
+    summary: Event1 - காடூர் படைகாத்தவர் கோவில்
+    description: Description - காடூர் படைகாத்தவர் கோவில்
+    sequence: 1
+    temple-no: 1
+    categories: category1
+    priority: 5
+    reminder-15m: True
+    reminder-1H: True
+    reminder-2H: False
+    reminder-12H: False
+  - uid: 2
+    startdate: 2023-05-17 10:00:00
+    enddate: 2023-05-17 11:00:00
+    summary: Event 2
+    description: Description for event 2
+    sequence: 1
+    temple-no: 2
+    categories: category2
+    priority: 5
+    reminder-15m: True
+    reminder-1H: True
+    reminder-2H: False
+    reminder-12H: False
