@@ -1,27 +1,42 @@
 events:
   - uid: 1
-    startdate: 2023-05-16 10:00:00
-    enddate: 2023-05-16 11:00:00
-    summary: Event1 - காடூர் படைகாத்தவர் கோவில்
-    description: Description - காடூர் படைகாத்தவர் கோவில்
-    sequence: 1
-    temple-no: 1
-    categories: category1
-    priority: 5
-    reminder-15m: True
-    reminder-1H: True
-    reminder-2H: False
-    reminder-12H: False
-  - uid: 2
-    startdate: 2023-05-17 10:00:00
-    enddate: 2023-05-17 11:00:00
-    summary: Event 2
-    description: Description for event 2
+    startdate: 2023-05-24 05:50:00
+    enddate: 2023-05-24 06:35:00
+    summary: கும்பாபிஷேகம் - காடூர் அருள்மிகு மாரியம்மன் கோவில்
+    description:
     sequence: 1
     temple-no: 2
-    categories: category2
-    priority: 5
+    categories: main-event
+    priority: 1
     reminder-15m: True
     reminder-1H: True
-    reminder-2H: False
+    reminder-2H: True
     reminder-12H: False
+
+  - uid: 2
+    startdate: 2023-05-24 06:30:00
+    enddate: 2023-05-24 07:25:00
+    summary: கும்பாபிஷேகம் - காடூர் அருள்மிகு பொன்னி அம்மன் கோவில்
+    description:
+    sequence: 2
+    temple-no: 3
+    categories: main-event
+    priority: 1
+    reminder-15m: True
+    reminder-1H: True
+    reminder-2H: True
+    reminder-12H: False
+
+  - uid: 3
+    startdate: 2023-05-24 09:00:00
+    enddate: 2023-05-24 10:30:00
+    summary: கும்பாபிஷேகம் - காடூர் அருள்மிகு படைகாத்த ஐயானார் கோவில்
+    description:
+    sequence: 3
+    temple-no: 1
+    categories: main-event
+    priority: 1
+    reminder-15m: True
+    reminder-1H: True
+    reminder-2H: True
+    reminder-12H: True
