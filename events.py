@@ -125,9 +125,9 @@ def generate_calendar(type):
         if (event_data['priority'] == 1 and type == 'main') or type == 'all':
             cal.add_component(event)
  
-    filename = "2023-kumba-invite-all-events.ics"
+    filename = "2024-kumba-1yr-all-events.ics"
     if (type == "main"):
-        filename = "2023-kumba-invite-main-events.ics"
+        filename = "2024-kumba-1yr-main-events.ics"
 
     # Write to file
     with open(filename, 'wb') as f:

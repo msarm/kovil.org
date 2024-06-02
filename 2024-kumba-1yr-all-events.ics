@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+X-WR-CALNAME:கும்பாபிஷேகம் - காடூர் 
+ அருள்மிகு படைகாத்த ஐயனார் 
+ கோவில்
+BEGIN:VEVENT
+SUMMARY:காடூர் அருள்மிகு மாரியம
+ ்மன் கோவில் - முதலாம் ஆண்டு 
+ வருட பூர்த்தி விழா திருவரு
+ ள்
+DTSTART;TZID=Asia/Kolkata:20240907T073000
+DTEND;TZID=Asia/Kolkata:20240907T090000
+DTSTAMP:20240602T121312Z
+UID:1
+SEQUENCE:1
+CATEGORIES:not-main-event
+CLASS:PUBLIC
+COLOR:#000000
+CREATED:20240602T121312Z
+DESCRIPTION:None
+GEO:11.2617603;79.102598
+LAST-MODIFIED:20240602T121312Z
+LOCATION:https://goo.gl/maps/1e211fZgLhBAgmceA?coh=178572&entry=tt
+ORGANIZER:mailto:invite@kovil.org
+PRIORITY:2
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://kovil.org
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: காடூர் அருள்மிகு ம
+ ாரியம்மன் கோவில் - முதலாம் ஆ
+ ண்டு வருட பூர்த்தி விழா திர
+ ுவருள்
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: காடூர் அருள்மிகு ம
+ ாரியம்மன் கோவில் - முதலாம் ஆ
+ ண்டு வருட பூர்த்தி விழா திர
+ ுவருள்
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:காடூர் அருள்மிகு பொன்னி 
+ அம்மன் கோவில் - முதலாம் ஆண்ட
+ ு வருட பூர்த்தி விழா திருவர
+ ுள்
+DTSTART;TZID=Asia/Kolkata:20240907T090000
+DTEND;TZID=Asia/Kolkata:20240907T103000
+DTSTAMP:20240602T121312Z
+UID:2
+SEQUENCE:2
+CATEGORIES:not-main-event
+CLASS:PUBLIC
+COLOR:#000000
+CREATED:20240602T121312Z
+DESCRIPTION:None
+GEO:11.2627532;79.1030085
+LAST-MODIFIED:20240602T121312Z
+LOCATION:https://goo.gl/maps/LDQifJKwSmR7bKez6?coh=178572&entry=tt
+ORGANIZER:mailto:invite@kovil.org
+PRIORITY:2
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://kovil.org
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: காடூர் அருள்மிகு ப
+ ொன்னி அம்மன் கோவில் - முதலாம
+ ் ஆண்டு வருட பூர்த்தி விழா த
+ ிருவருள்
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: காடூர் அருள்மிகு ப
+ ொன்னி அம்மன் கோவில் - முதலாம
+ ் ஆண்டு வருட பூர்த்தி விழா த
+ ிருவருள்
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:காடூர் அருள்மிகு படைகாத
+ ்த ஐயனார் கோவில் - முதலாம் ஆ
+ ண்டு வருட பூர்த்தி விழா திர
+ ுவருள்
+DTSTART;TZID=Asia/Kolkata:20240907T103000
+DTEND;TZID=Asia/Kolkata:20240907T120000
+DTSTAMP:20240602T121312Z
+UID:3
+SEQUENCE:3
+CATEGORIES:main-event
+CLASS:PUBLIC
+COLOR:#000000
+CREATED:20240602T121312Z
+DESCRIPTION:None
+GEO:11.2607868;79.1028115
+LAST-MODIFIED:20240602T121312Z
+LOCATION:https://goo.gl/maps/eg6E9VAZC6NXpwbR6?coh=178572&entry=tt
+ORGANIZER:mailto:invite@kovil.org
+PRIORITY:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://kovil.org
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: காடூர் அருள்மிகு ப
+ டைகாத்த ஐயனார் கோவில் - முதல
+ ாம் ஆண்டு வருட பூர்த்தி விழ
+ ா திருவருள்
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: காடூர் அருள்மிகு ப
+ டைகாத்த ஐயனார் கோவில் - முதல
+ ாம் ஆண்டு வருட பூர்த்தி விழ
+ ா திருவருள்
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: காடூர் அருள்மிகு ப
+ டைகாத்த ஐயனார் கோவில் - முதல
+ ாம் ஆண்டு வருட பூர்த்தி விழ
+ ா திருவருள்
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: காடூர் அருள்மிகு ப
+ டைகாத்த ஐயனார் கோவில் - முதல
+ ாம் ஆண்டு வருட பூர்த்தி விழ
+ ா திருவருள்
+TRIGGER:-PT12H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
